@@ -56,6 +56,13 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 .dn {
 	display: none;
 }
+input {
+	background: #ffffff;
+}
+input[type="button"],input[type="text"]input[type="submit"] {
+   -webkit-appearance: none;
+   border-radius: 0;
+}
 input::placeholder {
 	font-weight: 100;
 	color: #cccccc;
